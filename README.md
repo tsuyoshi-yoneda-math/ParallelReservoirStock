@@ -1,6 +1,9 @@
 Please acknowledge the use of these scripts in any publications which make use of them.
 
-The model predicts whether the price of sp500 will rise or fall tomorrow using only information from the past four days.
+I constructed non-incremental online learning of parallelizable Reservoir (simple stock model).
+
+The strong point of this learning scheme is that only the most recent 60 days of data are used to predict sp500 (strength of this model lies in its ability to flexibly adapt to sudden pattern change).
+With this limited training data, online learning can be performed to predict whether the price of sp500 will rise or fall tomorrow using only information from the past four days.
 A lag is incorporated, making it a practical setting for actual use. 
 By incorporating a lag, it might be possible to reduce the impact of short-term noise on the results.
 
