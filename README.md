@@ -2,7 +2,7 @@ Please acknowledge the use of these scripts in any publications which make use o
 
 The model predicts whether the price of sp500 will rise or fall tomorrow using only information from the past four days.
 A lag is incorporated, making it a practical setting for actual use. 
-By incorporating a lag, it may be possible to reduce the impact of short-term noise on the results.
+By incorporating a lag, it might be possible to reduce the impact of short-term noise on the results.
 
 Thirty trials were conducted with a one-day shift, and the average was calculated. This can be considered a rolling window verification.
 
