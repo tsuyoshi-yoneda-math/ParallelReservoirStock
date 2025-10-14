@@ -25,3 +25,7 @@ Recall = 0.676
 → There is a strong tendency not to miss upward movements (which is advantageous from an investment strategy perspective).
 
 Considering the constraint of using only information from the past four days, this can be concluded as a fairly robust result.
+
+
+To make the comparison among filters more meaningful,
+the correlation with the raw data can be used as a reference indicator alongside accuracy and F1.
