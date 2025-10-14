@@ -20,9 +20,9 @@ Recall = 0.721.
 Using the filtered data, along with a correlation of 0.985 between the filtered data and original data, is considered a fairly robust result.
 The following is a comparable result from our study:
 
+Gonzalo López Gil, Paul Duhamel-Sebline, Andrew McCarren,
 An Evaluation of Deep Learning Models for Stock Market Trend Prediction
-Authors: Gonzalo López Gil, Paul Duhamel-Sebline, Andrew McCarren
-Year: 2024 
+(2024) 
 
 https://arxiv.org/pdf/2408.12408v1
 
