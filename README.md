@@ -1,6 +1,6 @@
 Please acknowledge the use of these scripts in any publications which make use of them.
 
-I constructed non-incremental online learning of parallelized Reservoir (simple stock non-reduction model) and the corresponding realtime filter (based on Bayesian optimization) for the parallel data.
+I constructed non-incremental online learning of parallelized Reservoir (simple stock non-reduction model) and the corresponding data-driven filter (based on Bayesian optimization) for the parallel data.
 
 The strong point of this learning scheme is that only the most recent 60 days of data are used to predict sp500 (strength of this model lies in its ability to flexibly adapt to sudden pattern change).
 With this limited training data, online learning can be performed to predict whether the price of sp500 will rise or fall tomorrow.
