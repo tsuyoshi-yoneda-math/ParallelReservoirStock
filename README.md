@@ -31,7 +31,16 @@ Accuracy = 0.709,<br>
 F1 = 0.730,<br>
 Recall = 0.768.<br>
 
+<br>
 
+<H2>
+The PyTorch-based architecture, which stacks multiple libraries,
+xLSTM-TS: total learnable parameters = 125,389
+Online parallel reservoir: total learnable parameters ≈ 1,000
+
+Despite the difference of several orders of magnitude in computational cost, the learning results are nearly identical. This clearly demonstrates the high potential of the online reservoir approach.
+</H2>
+<br>
 
 If you want to know the mathematical structure of the data-driven filter, see the following paper:
 
