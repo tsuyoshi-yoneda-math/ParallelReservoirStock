@@ -12,7 +12,7 @@ We applied this method to predict SP500 and the result is as follows:
 Accuracy = 0.762,
   
 F1 = 0.712,
-
+ 
 Recall = 0.721.
 
 </b>
