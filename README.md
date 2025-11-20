@@ -27,9 +27,11 @@ https://arxiv.org/pdf/2408.12408v1
 
 Their result (using xLSTM-TS) is as follows:
 
-Accuracy = 0.709,
-F1 = 0.730,
-Recall = 0.768.
+Accuracy = 0.709,<br>
+F1 = 0.730,<br>
+Recall = 0.768.<br>
+
+
 
 If you want to know the mathematical structure of the data-driven filter, see the following paper:
 
