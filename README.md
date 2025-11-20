@@ -33,6 +33,8 @@ Recall = 0.768.<br>
 
 <br>
 
+Although the learning performance is comparable, the point we wish to emphasize most is the following:
+
 <H3>
 xLSTM-TS: total learnable parameters = 125,389<br>
 Online parallel reservoir: total learnable parameters ≈ 1,000
