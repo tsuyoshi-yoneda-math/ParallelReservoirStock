@@ -10,10 +10,12 @@ We applied this method to predict SP500 and the result is as follows:
 
 <b>
 Accuracy = 0.762,
+  
 F1 = 0.712,
+
 Recall = 0.721.
 </b>
-
+<br>
 Using the filtered data, along with a correlation of 0.985 between the filtered data and original data, is considered a fairly robust result.
 The following is a comparable result from our study:
 
