@@ -1,21 +1,18 @@
-Please acknowledge the use of these scripts in any publications which make use of them.
+Please acknowledge the use of these scripts in any publications that make use of them.
 
-I constructed non-incremental online learning of parallelized Reservoir (simple stock non-reduction model) and the corresponding data-driven filter (based on Bayesian optimization) for the parallel data.
+I developed a non-incremental online learning system using a parallelized reservoir and the corresponding data-driven filter. Unlike long-term learning models, its strength lies in its ability to adapt flexibly to sudden changes in patterns.
 
-The strong point of this learning scheme is that only the most recent 60 days of data are used to predict sp500 (strength of this model lies in its ability to flexibly adapt to sudden pattern change).
-With this limited training data, online learning can be performed to predict whether the price of sp500 will rise or fall tomorrow.
+For the summary of parallelized reservoir, see
 
-Thirty trials were conducted, and the average was calculated. This can be considered a rolling window verification.
+https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/parallelized-reservoir.pdf
 
-Since the evaluation covers multiple periods rather than a single period,
-it eliminates concerns such as “Is the model only strong for a specific period?” or “Is it not just temporary overfitting or random bias?”.
-By taking the average, it demonstrates that the model has consistent predictive power regardless of the period.
+We applied this method to predict SP500 and the result is as follows:
 
-The result is as follows:
-
+<b>
 Accuracy = 0.762,
 F1 = 0.712,
 Recall = 0.721.
+</b>
 
 Using the filtered data, along with a correlation of 0.985 between the filtered data and original data, is considered a fairly robust result.
 The following is a comparable result from our study:
