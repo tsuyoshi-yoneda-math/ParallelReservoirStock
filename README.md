@@ -4,7 +4,7 @@ I developed a non-incremental online learning system using a parallelized reserv
 
 For the summary of parallelized reservoir, see
 
-https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/parallelized-reservoir.pdf
+https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/summary_of_parallelized_reservoir_framework.pdf
 
 We applied this method to predict SP500 and the result is as follows:
 
