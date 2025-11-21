@@ -45,6 +45,8 @@ Despite the difference of several orders of magnitude in computational cost, the
 </H3>
 <br>
 
+---
+
 If you want to know the mathematical structure of the data-driven filter, see the following paper:
 
 ``Long-term prediction of El Niño-Southern Oscillation using reservoir computing with data-driven realtime filter"
