@@ -47,8 +47,6 @@ Despite the difference of several orders of magnitude in computational cost, the
 
 ---
 
-If you want to know the mathematical structure of the data-driven filter, see the following paper:
+If you want to know the mathematical structure of the data-driven filter, please go to
 
-``Long-term prediction of El Niño-Southern Oscillation using reservoir computing with data-driven realtime filter"
-
-https://pubs.aip.org/aip/cha/article-abstract/35/5/053149/3347294/Long-term-prediction-of-El-Nino-Southern?redirectedFrom=fulltext
+https://github.com/tsuyoshi-yoneda-math/SummaryNoteSlide-ML-Turbulence/blob/main/summary_ML_impl_driven_math.pdf
